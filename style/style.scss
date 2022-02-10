@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+$ColorPrimary: #ff6464;
+$ColorSecondary: #00a8cc;
+$ColorDark: #21243d;
+$ColorLight: #8695a4;
+
+@font-face {
+  font-family: Heebo-Bold;
+  src: url(/fonts/Heebo-Bold.ttf);
+}
+@font-face {
+  font-family: Heebo-Regular;
+  src: url(/fonts/Heebo-Regular.ttf);
+}
+
+body {
+  header {
+    overflow: hidden;
+    .container {
+      .navbar {
+        .collapse {
+          .navbar-nav {
+            .nav-item {
+              margin: 17px 33px 140px 0;
+              a {
+                font-family: Heebo-Regular;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 29px;
+                color: $ColorDark;
+              }
+            }
+          }
+        }
+      }
+      .row {
+        .col-xl-8 {
+          h1 {
+            font-family: Heebo-Bold;
+            font-weight: bold;
+            font-size: 44px;
+            line-height: 60px;
+          }
+          p {
+            font-family: Heebo-Regular;
+            font-size: 16px;
+            line-height: 23px;
+          }
+          .btn {
+            width: 208px;
+            height: 47px;
+            background: $ColorPrimary;
+            margin: 0 0 70px 0;
+            h6 {
+              font-family: Heebo-Regular;
+              font-weight: 500;
+              font-size: 20px;
+              line-height: 29px;
+              color: #ffff;
+            }
+          }
+        }
+        .col-xl-4 {
+          img {
+            width: 243px;
+            height: 243px;
+            border-radius: 50%;
+          }
+        }
+      }
+    }
+  }
+  article {
+    background: $ColorSecondary;
+    margin-bottom: 15px;
+    .container-1 {
+
+    }
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  body {
+    header {
+      .container {
+        .navbar {
+          .collapse {
+            .navbar-nav {
+              .nav-item {
+                margin: 0;
+              }
+            }
+          }
+        }
+        .row {
+          .col-sm-12 {
+            order: 2;
+            margin: 43px 11px;
+            text-align: center;
+            p {
+              width: 328px;
+              height: 96px;
+              margin: 21px 24px;
+            }
+            .btn {
+              margin: 27px 70px;
+            }
+          }
+          .col-sm-10 {
+            order: 1;
+            margin: 50px 80px ;
+          }
+        }
+      }
+    }
+  }
+}
