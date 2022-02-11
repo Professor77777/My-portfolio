@@ -4,7 +4,7 @@
 }
 
 $ColorPrimary: #ff6464;
-$ColorSecondary: #00a8cc;
+$ColorSecondary: #edf7fa;
 $ColorDark: #21243d;
 $ColorLight: #8695a4;
 
@@ -77,8 +77,18 @@ body {
   article {
     background: $ColorSecondary;
     margin-bottom: 15px;
-    .container-1 {
-
+    .first {
+      .title {
+        justify-content: space-between;
+        display: flex;
+        h4 {
+          margin: 22px 0;
+        }
+        h6 {
+          margin: 22px 0;
+          color: #00A8CC;
+        }
+      }
     }
   }
 }
@@ -112,7 +122,7 @@ body {
           }
           .col-sm-10 {
             order: 1;
-            margin: 50px 80px ;
+            margin: 50px 80px;
           }
         }
       }

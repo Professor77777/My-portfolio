@@ -64,8 +64,26 @@ body header .container .row .col-xl-4 img {
 }
 
 body article {
-  background: #00a8cc;
+  background: #edf7fa;
   margin-bottom: 15px;
+}
+
+body article .first .title {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body article .first .title h4 {
+  margin: 22px 0;
+}
+
+body article .first .title h6 {
+  margin: 22px 0;
+  color: #00A8CC;
 }
 
 @media only screen and (max-width: 576px) {
