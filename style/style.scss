@@ -77,7 +77,7 @@ body {
   .section {
     background: $ColorSecondary;
     margin-bottom: 15px;
-    height: 60vh;
+    height: 60vh !important;
     .first {
       .title {
         justify-content: space-between;
@@ -180,12 +180,32 @@ body {
   }
   .section-footer {
     margin-top: 83px;
+    .container {
+      .col-xl-4 {
+        .icons {
+          margin-bottom: 16px;
+          i {
+            margin-left: 35px;            
+          }
+          .fa-facebook {
+            :hover {
+              background-color: rgb(89, 89, 218);
+            }
+          }
+        }
+        .icon-text {
+
+        }
+      }
+    }
   }
 }
 
 @media only screen and (max-width: 576px) {
   body {
+    
     header {
+      overflow: hidden;
       .container {
         .navbar {
           .collapse {
@@ -219,6 +239,7 @@ body {
     }
     .section {
       height: 70vh !important;
+      overflow: hidden;
       .container {
         .title {
           h4 {
@@ -229,13 +250,14 @@ body {
           }
         }
         .row {
-          .post-1 {
+          .col-sm-12 {
             margin-bottom: 17px;
           }
         }
       }
     }
     .section-article {
+      overflow: hidden;
       .second {
         .article-title {
           margin-left: 7rem !important;
@@ -270,6 +292,25 @@ body {
         }
         .second-work, .third-work{
           display: none !important;
+        }
+      }
+    }
+    .section-footer {
+      .container {
+        .col-sm-12 {
+          .icons {
+            transform: translate(-50px, 0px);
+            i {
+              // margin: 20px;
+              // flex: flex-start;
+            }
+          }
+          .icon-text {
+             transform: translate(-60px, 10px);
+           h6 {    
+            padding: 1rem;
+           }
+          }
         }
       }
     }

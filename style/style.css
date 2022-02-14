@@ -66,7 +66,7 @@ body header .container .row .col-xl-4 img {
 body .section {
   background: #edf7fa;
   margin-bottom: 15px;
-  height: 60vh;
+  height: 60vh !important;
 }
 
 body .section .first .title {
@@ -171,7 +171,22 @@ body .section-footer {
   margin-top: 83px;
 }
 
+body .section-footer .container .col-xl-4 .icons {
+  margin-bottom: 16px;
+}
+
+body .section-footer .container .col-xl-4 .icons i {
+  margin-left: 35px;
+}
+
+body .section-footer .container .col-xl-4 .icons .fa-facebook :hover {
+  background-color: #5959da;
+}
+
 @media only screen and (max-width: 576px) {
+  body header {
+    overflow: hidden;
+  }
   body header .container .navbar .collapse .navbar-nav .nav-item {
     margin: 0;
   }
@@ -198,6 +213,7 @@ body .section-footer {
   }
   body .section {
     height: 70vh !important;
+    overflow: hidden;
   }
   body .section .container .title h4 {
     margin-left: 8rem;
@@ -205,8 +221,11 @@ body .section-footer {
   body .section .container .title h6 {
     display: none;
   }
-  body .section .container .row .post-1 {
+  body .section .container .row .col-sm-12 {
     margin-bottom: 17px;
+  }
+  body .section-article {
+    overflow: hidden;
   }
   body .section-article .second .article-title {
     margin-left: 7rem !important;
@@ -240,6 +259,17 @@ body .section-footer {
   }
   body .section-article .second .second-work, body .section-article .second .third-work {
     display: none !important;
+  }
+  body .section-footer .container .col-sm-12 .icons {
+    -webkit-transform: translate(-50px, 0px);
+            transform: translate(-50px, 0px);
+  }
+  body .section-footer .container .col-sm-12 .icon-text {
+    -webkit-transform: translate(-60px, 10px);
+            transform: translate(-60px, 10px);
+  }
+  body .section-footer .container .col-sm-12 .icon-text h6 {
+    padding: 1rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
