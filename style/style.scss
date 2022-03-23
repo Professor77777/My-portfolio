@@ -130,7 +130,7 @@ body {
       }
       .portfolio {
         padding-bottom: 15px;
-        border-bottom: 1px solid #E0E0E0;
+        border-bottom: 1px solid #e0e0e0;
         margin-bottom: 15px;
         .dash-image {
           img {
@@ -140,20 +140,20 @@ body {
         }
         .dash-data {
           margin-left: 20px;
-         button {
-           border: none;
-           background: none;
-           a {
-             text-decoration: none;
+          button {
+            border: none;
+            background: none;
+            a {
+              text-decoration: none;
               h3 {
-            font-family: Heebo-Bold;
-            font-style: normal;
-            font-weight: bold;
-            font-size: 30px;
-            line-height: 44px;
+                font-family: Heebo-Bold;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 30px;
+                line-height: 44px;
+              }
+            }
           }
-           }
-         }
           .data--number {
             .data-year {
               width: 60px;
@@ -165,15 +165,15 @@ body {
               h6 {
                 color: $ColorSecondary;
                 font-size: 18px;
-              }              
+              }
             }
             h5 {
-                font-family: Heebo-Regular;
-                font-size: 20px;
-                line-height: 29px;
-                margin-left: 36px;
-                color: #8695A4;
-              }
+              font-family: Heebo-Regular;
+              font-size: 20px;
+              line-height: 29px;
+              margin-left: 36px;
+              color: #8695a4;
+            }
           }
         }
       }
@@ -186,16 +186,13 @@ body {
         .icons {
           margin-bottom: 16px;
           i {
-            margin-left: 35px;            
+            margin-left: 35px;
           }
           .fa-facebook {
             :hover {
               background-color: rgb(89, 89, 218);
             }
           }
-        }
-        .icon-text {
-
         }
       }
     }
@@ -204,7 +201,6 @@ body {
 
 @media only screen and (max-width: 576px) {
   body {
-    
     header {
       overflow: hidden;
       .container {
@@ -268,8 +264,8 @@ body {
           .dash-image {
             order: 1;
             img {
-              width: 24.4rem;   
-              height: 15rem;           
+              width: 24.4rem;
+              height: 15rem;
             }
           }
           .dash-data {
@@ -277,21 +273,21 @@ body {
             button {
               a {
                 h3 {
-                  margin:1rem 0 1rem 7rem;
+                  margin: 1rem 0 1rem 7rem;
                 }
               }
             }
             .data--number {
-              margin-left: 5rem
+              margin-left: 5rem;
             }
             p {
               // align-items: center;
               text-align: center;
             }
-
           }
         }
-        .second-work, .third-work{
+        .second-work,
+        .third-work {
           display: none !important;
         }
       }
@@ -301,16 +297,14 @@ body {
         .col-sm-12 {
           .icons {
             transform: translate(-50px, 0px);
-            i {
-              // margin: 20px;
-              // flex: flex-start;
-            }
           }
           .icon-text {
-             transform: translate(-60px, 10px);
-           h6 {    
-            padding: 1rem;
-           }
+            transform: translate(-25px, 10px);
+
+            h6 {
+              padding: 1rem;
+              font-size: 10px;
+            }
           }
         }
       }

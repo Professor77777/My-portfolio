@@ -118,7 +118,7 @@ body .section-article .container .article-title {
 
 body .section-article .container .portfolio {
   padding-bottom: 15px;
-  border-bottom: 1px solid #E0E0E0;
+  border-bottom: 1px solid #e0e0e0;
   margin-bottom: 15px;
 }
 
@@ -166,7 +166,7 @@ body .section-article .container .portfolio .dash-data .data--number h5 {
   font-size: 20px;
   line-height: 29px;
   margin-left: 36px;
-  color: #8695A4;
+  color: #8695a4;
 }
 
 body .section-footer {
@@ -259,7 +259,8 @@ body .section-footer .container .col-xl-4 .icons .fa-facebook :hover {
   body .section-article .second .portfolio .dash-data p {
     text-align: center;
   }
-  body .section-article .second .second-work, body .section-article .second .third-work {
+  body .section-article .second .second-work,
+  body .section-article .second .third-work {
     display: none !important;
   }
   body .section-footer .container .col-sm-12 .icons {
@@ -267,11 +268,12 @@ body .section-footer .container .col-xl-4 .icons .fa-facebook :hover {
             transform: translate(-50px, 0px);
   }
   body .section-footer .container .col-sm-12 .icon-text {
-    -webkit-transform: translate(-60px, 10px);
-            transform: translate(-60px, 10px);
+    -webkit-transform: translate(-25px, 10px);
+            transform: translate(-25px, 10px);
   }
   body .section-footer .container .col-sm-12 .icon-text h6 {
     padding: 1rem;
+    font-size: 10px;
   }
 }
 /*# sourceMappingURL=style.css.map */
