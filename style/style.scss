@@ -55,12 +55,18 @@ body {
             height: 47px;
             background: $ColorPrimary;
             margin: 0 0 70px 0;
-            h6 {
-              font-family: Heebo-Regular;
-              font-weight: 500;
-              font-size: 20px;
-              line-height: 29px;
-              color: #ffff;
+            padding: 0.5rem;
+
+            a {
+              text-decoration: none;
+
+              h6 {
+                font-family: Heebo-Regular;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 29px;
+                color: #ffff;
+              }
             }
           }
         }

@@ -47,9 +47,14 @@ body header .container .row .col-xl-8 .btn {
   height: 47px;
   background: #ff6464;
   margin: 0 0 70px 0;
+  padding: 0.5rem;
 }
 
-body header .container .row .col-xl-8 .btn h6 {
+body header .container .row .col-xl-8 .btn a {
+  text-decoration: none;
+}
+
+body header .container .row .col-xl-8 .btn a h6 {
   font-family: Heebo-Regular;
   font-weight: 500;
   font-size: 20px;
